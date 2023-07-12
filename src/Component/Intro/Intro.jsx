@@ -44,7 +44,7 @@ const Intro = () => {
         <div style={{top:'-4%',  left: '68%'}}>
             <FloatingDiv image={crown} txt1 = "Web" txt2 = "Developer"/>
         </div>
-        <div style={{top:'18rem',  left: '1rem'}}>
+        <div style={{top:'21.5rem',  left: '0.5rem'}}>
             <FloatingDiv image={thumbup} txt1 = "UI/UX" txt2 = "Designer"/>
         </div>
         {/* blur divs */}
