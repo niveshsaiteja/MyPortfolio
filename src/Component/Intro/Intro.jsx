@@ -21,7 +21,7 @@ const transition = {duration : 2, type : "spring"}
 const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode; 
   return (
-   <div className="intro">
+   <div className="intro" id='Home'>
     <div className="i-left">
         <div className="i-name">
             <span style={{color: darkMode? 'white' : ''}}>Hy! I Am</span>
@@ -55,12 +55,21 @@ const theme = useContext(themeContext);
         src={glassesimoji}
          alt=""
           />
-        <div style={{top:'-4%',  left: '68%'}}>
+        <motion.div
+         initial = {{ top : '-4%',left : "74%"}}
+         whileInView={{ left : "68%"}}
+         transition={transition}
+        style={{top:'-4%',  left: '68%'}}>
             <FloatingDiv image={crown} txt1 = "Web" txt2 = "Developer"/>
-        </div>
-        <div style={{top:'21.5rem',  left: '0.5rem'}}>
+        </motion.div>
+
+        <motion.div
+         initial = {{top : '21.5rem', left : "0.5rem"}}
+         whileInView={{ left : "3rem"}}
+         transition={transition}
+        style={{top:'21.5rem',  left: '0.5rem'}}>
             <FloatingDiv image={thumbup} txt1 = "UI/UX" txt2 = "Designer"/>
-        </div>
+        </motion.div>
         {/* blur divs */}
         <div className="blur" style={{background:"rbg(238 210 255)"}}>
 
