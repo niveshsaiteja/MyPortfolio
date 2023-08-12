@@ -59,7 +59,9 @@ const theme = useContext(themeContext);
          initial = {{ top : '-4%',left : "74%"}}
          whileInView={{ left : "68%"}}
          transition={transition}
-        style={{top:'-4%',  left: '68%'}}>
+        style={{top:'-4%',  left: '68%'}}
+        className='floting-div'
+        >
             <FloatingDiv image={crown} txt1 = "Web" txt2 = "Developer"/>
         </motion.div>
 
@@ -67,7 +69,9 @@ const theme = useContext(themeContext);
          initial = {{top : '21.5rem', left : "0.5rem"}}
          whileInView={{ left : "3rem"}}
          transition={transition}
-        style={{top:'21.5rem',  left: '0.5rem'}}>
+        style={{top:'21.5rem',  left: '0.5rem'}}
+        className='floting-div'
+        >
             <FloatingDiv image={thumbup} txt1 = "UI/UX" txt2 = "Designer"/>
         </motion.div>
         {/* blur divs */}
