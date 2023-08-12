@@ -35,5 +35,8 @@
 @media screen and (max-width: 480px){
     .card{
         width: auto;
+        position: relative;
+        margin-top: 45px;
     }
+  
 }
