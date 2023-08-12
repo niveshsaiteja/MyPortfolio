@@ -8,14 +8,18 @@ import Wave from "../../img/wave.png";
 const Footer = () => {
   return (
     <div className="footer">
-        <img src={Wave} alt=""  style={{width:'100%'}}/>
+        <img className='footer-img' src={Wave} alt=""  style={{width:'100%'}}/>
         <div className="f-content">
-            <span>niveshsaiteja789@gmail.com</span>
+            
             <div className="f-icons">
                 <Insta color='white' size='3rem'/>
                 <LinkedIn color='white' size='3rem'/>
                 <Github color='white' size='3rem'/>
             </div>
+            <div className='copoyrights-div'>
+              
+          <span>developed by <strong>niveshtech</strong></span>
+        </div>
         </div>
     </div>
   )

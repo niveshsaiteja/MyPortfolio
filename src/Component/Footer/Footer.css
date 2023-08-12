@@ -21,3 +21,16 @@
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width: 480px){
+    .f-content > span{
+        display: none;
+    }
+    .f-content{
+        gap: 2rem;
+
+    }
+    .footer-img{
+        height: 300px;
+    }
+}
