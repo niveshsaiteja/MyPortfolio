@@ -75,17 +75,14 @@
         padding: 0;
     }
     .testimonial{
-        height: auto;
+        height: 57vh;
+        padding: 10px;
     }
     .testimonial > img{
         width: 70px;
         height: 70px;
     }
-    .testimonial{
-      padding: 10px;
-      
-       
-    }
+
     .para{
         font-size: 15px;
     }
