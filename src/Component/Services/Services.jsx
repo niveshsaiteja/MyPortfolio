@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from '../Card/Card'
 import "./Services.css"
-import HeartEmoji from "../../img/heartemoji.png";
-import Humble from "../../img/humble.png";
-import Glasses from "../../img/glasses.png"
+import HeartEmoji from "../../img/animation_lldgc48b_small.gif";
+import Humble from "../../img/animation_lldgo3u5_small.gif";
+import Glasses from "../../img/animation_lldgka04_small.gif"
 import Resume from "../../img/resume.pdf"
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -21,9 +21,9 @@ const transition = {duration : 1, type: 'spring'};
           <span style={ {color : darkMode? 'white': ''}}>My Awesome</span>
           <span>services</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing <br />
-             quod odio temporibus iure praesentium inventore sed amet animi minus
-              Delectus, itaque incidunt.
+          Elevate your brand online with my expert web design services. <br />
+           Whether you're an entrepreneur, small business, or creative individual, I specialize in crafting websites that capture your unique essence.
+           <br /> Let's collaborate to bring your digital vision to life.
           </span>
          <a href={Resume} download>
          <button className="s-button">Download CV</button>
@@ -41,7 +41,7 @@ const transition = {duration : 1, type: 'spring'};
             <Card 
               emoji = {HeartEmoji}
               heading = {"Design"}
-              detail = {"Figma, Sketch , Photoshop, Adobe, Adobe xd"}
+              detail = {"Sketch , Photoshop, Adobe, Adobe xd"}
             />
           </motion.div>
 
@@ -65,7 +65,7 @@ const transition = {duration : 1, type: 'spring'};
             <Card 
               emoji = {Humble}
               heading = {"UI/UX"}
-              detail = {"Figma, Sketch , Photoshop, Adobe, Adobe xd"}
+              detail = {"Figma, Word Press, Adobe xd"}
             />
           </motion.div>
           <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>

@@ -10,19 +10,19 @@ const Experience = () => {
   return (
     <div className="experience" id='Experience'>
       <div className="achievement">
-        <div className="circle">8+</div>
-        <span>years</span>
-        <span>Experience</span>
+        <div className="circle">5+</div>
+        <span>Open Source</span>
+        <span>Contribution</span>
       </div>
       <div className="achievement">
-        <div className="circle">20+</div>
+        <div className="circle">5+</div>
         <span>Completed</span>
         <span>Projects</span>
       </div>
       <div className="achievement">
-        <div className="circle">5+</div>
-        <span>Companies</span>
-        <span>Worked</span>
+        <div className="circle">9+</div>
+        <span>TechStack</span>
+        <span>Known</span>
       </div>
 
     </div>

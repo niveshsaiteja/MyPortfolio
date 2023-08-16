@@ -26,10 +26,10 @@ const theme = useContext(themeContext);
         <div className="i-name">
             <span style={{color: darkMode? 'white' : ''}}>Hy! I Am</span>
             <span>Nivesh Sai Teja</span>
-            <span>Frontend Developer with high
+            <span> Welcome to my portfolio! I'm a Web Developer and UI/UX Designer, dedicated to blending code and creativity. Explore my work in creating user-centric digital solutions. Let's bring ideas to life together. Web Developer with high
                  level of experience in web 
             designing and development, producting
-             the Quality work</span>
+             the Quality work,</span>
         </div>
         <button className="button i-button">Hire Me</button>
         <div className="i-icons">

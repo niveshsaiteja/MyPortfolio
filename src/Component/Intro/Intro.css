@@ -100,8 +100,8 @@
 @media screen and (max-width: 480px){
     .intro{
         flex-direction: column;
-        height: 64rem;
-        gap: 7rem;
+        height: 75rem;
+        gap: 11rem;
     }
     .i-right{
         transform: scale(0.8);

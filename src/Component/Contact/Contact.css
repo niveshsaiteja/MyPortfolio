@@ -37,6 +37,7 @@ textarea{
 @media screen and (max-width: 480px){
     .contact-form{
        flex-direction: column;
+       padding: 10px;
     }
 
     .c-right .user {
