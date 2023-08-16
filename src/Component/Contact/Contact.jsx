@@ -27,8 +27,8 @@ const Contact = () => {
     <div className="contact-form" id='Contact'>
         <div className="w-left">
             <div className="awesome">
-                <span style={{color: darkMode ? 'white' : ''}}>Get in touch</span>
-                <span>Contac me</span>
+                <span style={{color: darkMode ? 'white' : ''}}>Get in Touch</span>
+                <span>Contact me</span>
                 <div className='blur s-blur1' style={{ background :"#ABF1FF94"}}>
                 </div>
             </div>

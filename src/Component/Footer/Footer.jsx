@@ -12,9 +12,9 @@ const Footer = () => {
         <div className="f-content">
             
             <div className="f-icons">
-                <Insta color='white' size='3rem'/>
-                <LinkedIn color='white' size='3rem'/>
-                <Github color='white' size='3rem'/>
+                <a href="https://www.instagram.com/niveshsaiteja/"><Insta color='white' size='3rem'/></a>
+                <a href="https://www.linkedin.com/in/nivesh-saiteja-nelluri/"><LinkedIn color='white' size='3rem'/></a>
+                <a href="https://github.com/niveshsaiteja"> <Github color='white' size='3rem'/></a>
             </div>
             <div className='copoyrights-div'>
               

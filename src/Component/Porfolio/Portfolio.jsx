@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Portfolio.css"
 import {Swiper,SwiperSlide} from 'swiper/react'
-import Siderbar from "../../img/sidebar.png"
-import Ecommerce from "../../img/ecommerce.png"
-import HOC from "../../img/hoc.png"
-import MusicApp from "../../img/musicapp.png"
+import Siderbar from "../../img/tulaproject.png"
+import Ecommerce from "../../img/Screenshot 2023-08-16 150417.png"
+import HOC from "../../img/ketoproject.png"
+import MusicApp from "../../img/foodfarmbridge.png"
 import "swiper/css";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -26,16 +26,16 @@ const Portfolio = () => {
           className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={Siderbar} alt="" />
+                <a href="https://github.com/niveshsaiteja/tulaorg_ngo_project"><img src={Siderbar} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+                <a href="https://github.com/niveshsaiteja/ecommerce-landingpage-task-3"><img src={Ecommerce} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
+                <a href="https://github.com/niveshsaiteja/niveshfarmproject"><img src={MusicApp} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+                <a href="https://github.com/niveshsaiteja/ecommerce-landingpage-task-3"><img src={HOC} alt="" /></a>
             </SwiperSlide>
         </Swiper>  
     </div>
