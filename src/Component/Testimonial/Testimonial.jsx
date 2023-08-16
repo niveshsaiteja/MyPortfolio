@@ -64,7 +64,7 @@ const Testimonial = () => {
                         <div className="testimonial">
                         <img src={client.img} alt="" />
                         <h1 className='head-client'>{client.heading}</h1>
-                        <span>{client.review}</span>
+                        <span className='para'>{client.review}</span>
                         </div>
                     </SwiperSlide>
                 )

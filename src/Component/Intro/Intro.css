@@ -29,12 +29,12 @@
 .i-name>:nth-child(3){
     color: var(--gray);
     font-weight: 100;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
 .i-button{
-    width: 6rem;
+    width: 7rem;
     height: 2rem;
 }
 

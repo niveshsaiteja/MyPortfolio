@@ -16,10 +16,11 @@ const Works = () => {
     <div className="works">
         {/*left side */}
         <div className="awesome">
-          <span style={{color: darkMode ? 'white' : ''}}>Building Seamless Websites</span>
-          <span> with Modern Tech Stack</span>
+          <span style={{color: darkMode ? 'white' : ''}}>Building Seamless <br /> Websites</span>
+          <span> with Modern <br /> Tech Stack</span>
           <span>
-          I offer expert web design using cutting-edge tools like React.js, Node.js, Bootstrap, Tailwind, JavaScript, HTML, CSS, and MongoDB.
+          I offer expert web design using cutting-edge tools like <br />
+           React.js, Node.js, Bootstrap, Tailwind, JavaScript, HTML, CSS, and MongoDB.
           <br /> Let's create your digital presence that's both visually appealing and highly functional.
           </span>
          <button className="s-button">Hire Me</button>

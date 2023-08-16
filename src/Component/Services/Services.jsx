@@ -22,7 +22,8 @@ const transition = {duration : 1, type: 'spring'};
           <span>services</span>
           <span>
           Elevate your brand online with my expert web design services. <br />
-           Whether you're an entrepreneur, small business, or creative individual, I specialize in crafting websites that capture your unique essence.
+           Whether you're an entrepreneur, small business, or creative individual,
+      <br /> I specialize in crafting websites that capture your unique essence.
            <br /> Let's collaborate to bring your digital vision to life.
           </span>
          <a href={Resume} download>
